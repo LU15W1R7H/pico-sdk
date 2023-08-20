@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "lwirth-nixpkgs": {
+      "locked": {
+        "lastModified": 1691751128,
+        "narHash": "sha256-xvgAY465nxITPbn4QaLzoUBJ4jxyugcPJb6KiWI7UWc=",
+        "owner": "lu15w1r7h",
+        "repo": "nixpkgs",
+        "rev": "9fe06454270690d5c3c744766f28632e97a18a07",
+        "type": "github"
+      },
+      "original": {
+        "owner": "lu15w1r7h",
+        "ref": "openocd-rp2040",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1692494774,
+        "narHash": "sha256-noGVoOTyZ2Kr5OFglzKYOX48cx3hggdCPbXrYMG2FDw=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "3476a10478587dec90acb14ec6bde0966c545cc0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "lwirth-nixpkgs": "lwirth-nixpkgs",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
